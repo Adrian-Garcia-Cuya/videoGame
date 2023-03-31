@@ -1,0 +1,39 @@
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 120px repeat(3,400px);
+}
+
+.grilla__cabecera {
+    background-color: chocolate;
+    grid-column: 1/4;
+}
+
+.grilla__img {
+    width: 100%;
+    height: 100%;
+    grid-column: 1/3;
+}
+.grilla__principal {
+    background-color: yellowgreen;
+    grid-area: 2/1/4/3;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.grilla__article--1 {
+    background-color: aqua;
+}
+.grilla__article--2 {
+    background-color:cornflowerblue;
+}
+
+.grilla__aside {
+    background-color: blueviolet;
+    grid-row: 2/4;
+}
+
+.grilla__footer {
+    background-color: teal;
+    grid-column: 1/4;
+}

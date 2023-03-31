@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:1400px)">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+
+    
+
+    <div class="contenedor">
+      <header class="cabecera">
+        <figure class="cabecera__figure">
+          <img class="cabecera__img" src="./assets/images/logo.svg" alt="">
+        </figure>
+        <nav class="cabecera__nav">
+          <ul class="cabecera__ul">
+            <li class="cabecera__list">
+              <a class="cabecera__enlace" href="#">Home</a>
+            </li>
+            <li class="cabecera__list">
+              <a class="cabecera__enlace" href="#">New</a>
+            </li>
+            <li class="cabecera__list">
+              <a class="cabecera__enlace" href="#">Popular</a>
+            </li>
+            <li class="cabecera__list">
+              <a class="cabecera__enlace" href="#">Trending</a>
+            </li>
+            <li class="cabecera__list">
+              <a class="cabecera__enlace" href="#">Categories</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="btn btn--menu">
+          <i class='bx bx-menu icon'></i>
+        </button>
+      </header>
+      <main class="principal">
+        <!-- <source media="(min-width: 900px)" srcset="./assets/images/image-web-3-desktop.jpg"> -->
+        <img class="contenedor__img" src="./assets/images/image-web-3-desktop.jpg" alt="imagen de cubos">
+        <h1 class="contenedor__title" >The Bright Future of Web 3.0?</h1>
+        <section class="contenedor__section">
+          <p class="contenedor__describe">
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?
+          </p>
+          <button class="btn btn--more">
+            READ MORE
+          </button>
+        </section>
+      </main>
+      <aside class="contenedor__aside">
+        <h1 class="contenedor__article-title">New</h1>
+        <article class="contenedor__article contenedor__article--first">
+          <h3 class="contenedor__article-subtitle">Hydrogen VS Electric Cars</h3>
+          <span class="contenedor__article-desc">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </span>
+        </article>
+        <article class="contenedor__article">
+          <h3 class="contenedor__article-subtitle">The Downsides of AI Artistry</h3>
+          <span class="contenedor__article-desc">
+            What are the possible adverse effects of on-demand AI image generation?
+          </span>
+        </article>
+        <article class="contenedor__article contenedor__article--third" >
+          <h3 class="contenedor__article-subtitle">Is VC Funding Drying Up?</h3>
+          <span class="contenedor__article-desc">
+            Private funding by VC firms is down 50% YOY. We take a look at what that means.
+          </span>
+        </article>
+      </aside>
+      <footer class="contenedor__footer">
+        <article class="contenedor__videogames contenedor__videogames--1">
+          <figure class="contenedor__contImg">
+            <img class="contenedor__img" src="./assets/images/image-retro-pcs.jpg" alt="">
+          </figure>
+          <div class="infoGames">
+            <h1 class="infoGames__title">01</h1>
+            <span class="infoGames__subtitle">Reviving Retro PCs</span>
+            <p class="infoGames__description">What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </article>
+        <article class="contenedor__videogames contenedor__videogames--2">
+          <figure class="contenedor__contImg">
+            <img class="contenedor__img" src="./assets/images/image-top-laptops.jpg" alt="">
+          </figure>
+          <div class="infoGames">
+            <h1 class="infoGames__title">02</h1>
+            <span class="infoGames__subtitle">Top 10 Laptops of 2022</span>
+            <p class="infoGames__description">Our best picks for various needs and budgets.</p>
+          </div>
+        </article>
+        <article class="contenedor__videogames contenedor__videogames--3">
+          <figure class="contenedor__contImg">
+            <img class="contenedor__img" src="./assets/images/image-gaming-growth.jpg" alt="">
+          </figure>
+          <div class="infoGames">
+            <h1 class="infoGames__title">03</h1>
+            <span class="infoGames__subtitle">The Growth of Gaming</span>
+            <p class="infoGames__description">How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </article>
+      </footer>
+    </div>
+  </body>
+
+</html>
